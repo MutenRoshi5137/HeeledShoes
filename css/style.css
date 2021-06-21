@@ -60,6 +60,13 @@ a {
     padding-bottom: 75px;
 }
 
+.header-logo {
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #890043;
+}
+
 .header-content {
     height: 600px;
     background-image: url(../img/header-image.jpg);
@@ -371,4 +378,38 @@ button {
 
 .section4 {
     background-color: #9E2862;
+}
+
+/****MEDIA****/
+
+@media (max-width: 1200px) {
+    .logo {
+        font-size: 30px;
+    }
+    .header-title {
+        font-size: 35px;
+        padding-left: 450px;
+        padding-bottom: 20px;
+    }
+    .header-button {
+        margin-left: 540px;
+        font-size: 15px;
+        padding: 7px 15px;
+        border-radius: 10px;
+    }
+    .carousel-item {
+        text-align: center;
+        height: 420px;
+        width: 240px;
+        box-sizing: border-box;
+        position: relative;
+        overflow-wrap: break-word;
+        background-color: #fff;
+        border-radius: 20px;
+        transition: 0.2s all;
+        margin-bottom: 30px;
+    }
+    .fourth {
+        padding-left: 140px;
+    }
 }
